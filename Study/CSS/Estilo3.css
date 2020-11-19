@@ -1,0 +1,176 @@
+html,body {
+	width:100%; 
+	margin: 0%; 
+}
+
+@font-face{
+	font-family:letrabonita;
+	src:url('/Users/macadmin/Desktop/Study/CSS/Muthiara demo version.otf'); 
+}
+
+@font-face{
+	font-family:Monse;
+	src:url('/Users/macadmin/Desktop/Study/CSS/Montserrat-ExtraLight.ttf'); 
+}
+
+@font-face{
+	font-family:subti;
+	src:url('/Users/macadmin/Desktop/Study/CSS/AvenirLTStd-Medium.otf'); 
+}
+
+.grid{
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr;
+	position:relative;
+}
+
+.grid div{
+	background: white; 
+	position: relative;
+}
+
+.grid img{
+	padding: 10%;
+	position:relative;
+}
+
+.grid a{
+	background: white; 
+	display:inline-block; 
+	margin-top: center; 
+	padding: 10px;  
+}
+
+.grid a:hover{
+	background: white;
+	color: white; 
+	padding: 10px; 
+	display:inline-block; 
+}
+
+.tab1 {
+	grid-column: 1/2; 
+	padding:2em; 
+}
+.tab2 {
+	grid-column: 2/3; 
+	padding:2em; 
+}
+.tab3 {
+	grid-column: 3/4; 
+	padding:2em; 
+}
+
+.tab3 img {
+	width:100%;
+    max-width:300px;
+}
+
+h2{
+	color:black; 
+	font-family: Monse; 
+}
+
+p{
+	color:black; 
+	font-family: Monse; 
+	line-height:2em; 
+}
+
+.encabezado{
+	display: grid; 
+	background: white; 
+	grid-template-columns: 30% 70%; 
+	height:30%; 
+}
+
+.encabezado div{
+	background:#black; 
+	position: relative;
+	height:100%; 
+}
+
+.encabezado img{ 
+	padding-top: 10%;
+	padding-left:30%; 
+	padding-bottom: 5%; 
+	width:150px; 
+}
+
+.encabezado h1{
+	color: black;
+	position: relative; 
+	font-size: 90px; 
+	font-family: subti; 
+}
+
+.tit{
+	color: black;
+	position: relative; 
+	font-size: 250%; 
+	font-family: Monse; 
+	font-style:bold; 
+	position:center; 
+	padding-left:3%;
+	padding-bottom:0%; 
+	
+}
+
+.contenedor a{
+	background: #5C190B; 
+	text-decoration: none; 
+	color: white; 
+	font-size: 18px; 
+	display:inline-block; 
+	margin: 0px 20px; 
+	margin-top: center; 
+	padding: 15px;  
+	width:150px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.contenedor a:hover{
+	background: #8E2914;
+	color: #ffffff; 
+	padding: 15px; 
+	display:inline-block; 
+}
+
+.contenedor {
+	display: grid; 
+	background-color: #5C190B; 	
+}
+
+#menu {
+ font-family: Monse;
+ float:left;
+ list-style-type:none;
+ margin:0 auto;
+}
+
+#menu li {
+ float:left;
+ position:relative;
+}
+
+.pie {
+  height: 4rem;
+  background-color: #5C190B; 
+}
+
+.pie a{
+	text-decoration: none; 
+	color: white; 
+	font-size: 100%; 
+	padding: 15px;  
+	font-family:subti; 
+	display:block; 
+	text-align:center; 
+}
+
+
+
+
+
+
